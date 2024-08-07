@@ -1,0 +1,99 @@
+/* Dashboard.module.css */
+.dashboardContainer {
+  display: flex;
+  flex-direction: column; /* Ensure sidebar and header are stacked vertically */
+}
+
+.header {
+  height: 60px; /* Adjust this to the actual height of your header */
+}
+
+.content {
+  flex: 1;
+  margin-left: 150px; /* Match the width of the sidebar */
+  padding: 20px;
+  padding-top: 90px; /* Match the height of the header */
+  background-color: #f4f4f4; /* Example background color */
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: calc(100% - 250px); /* Adjust width to account for sidebar */
+}
+
+.leftCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 66.66%; /* 8/12 parts */
+}
+
+.rightCard {
+  width: 33.33%; /* 4/12 parts */
+}
+
+.card {
+  background-color: #2a2a3c;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: calc(50% - 10px); /* Two cards per row with some margin */
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.graphContainer {
+  background-color: #2a2a3c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.goalsContainer {
+  background-color: #2a2a3c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.graph {
+  height: 200px; /* Adjust height as needed */
+}
+
+.goals {
+  display: flex;
+  flex-direction: column;
+}
+
+.goal {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #383850;
+}

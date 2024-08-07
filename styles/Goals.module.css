@@ -1,0 +1,34 @@
+/* Goals.module.css */
+.goalsContainer {
+  background-color: #1e1e2d; /* Dark background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #ffffff; /* White text color */
+}
+
+.goal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #2d2d3a; /* Slightly lighter background for goals */
+  border-radius: 8px;
+}
+
+.goalIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.goalName {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.goalArrow {
+  color: #ffffff; /* Arrow color */
+  font-size: 16px;
+}

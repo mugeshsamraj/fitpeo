@@ -1,0 +1,39 @@
+.customerFeedback {
+  background-color: #1f1f2b;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.customerFeedback h2 {
+  margin-bottom: 20px;
+}
+
+.feedback {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.customerImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.feedbackText {
+  flex: 1;
+}
+
+.feedbackText p {
+  margin: 5px 0;
+}
+
+.feedbackText .name {
+  font-weight: bold;
+}
+
+.feedbackText .stars {
+  color: #f1c40f;
+}

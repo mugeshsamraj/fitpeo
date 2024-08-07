@@ -1,0 +1,21 @@
+/* Graph.module.css */
+.graphContainer {
+  background-color: #1e1e2d; /* Dark background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #ffffff; /* White text color */
+}
+
+.graphContainer h3 {
+  font-size: 18px; /* Font size */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.graph {
+  width: 100%;
+  height: 400px; /* Height of the graph area */
+  background-color: #2d2d3a; /* Slightly lighter background for graph */
+  border-radius: 10px; /* Rounded corners for graph area */
+  padding: 20px;
+}
