@@ -1,6 +1,5 @@
-/* Sidebar.module.css */
 .sidebar {
-  width: 150px; /* Adjust width as needed */
+  width: 150px; 
   position: fixed;
   top: 0;
   left: 0;

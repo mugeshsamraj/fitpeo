@@ -1,28 +1,3 @@
-// import React from "react";
-// import {
-//   Box,
-//   Toolbar,
-//   Container,
-//   Grid,
-//   Paper,
-//   Typography,
-// } from "@mui/material";
-// import Header from "../component/Header";
-// import Sidebar from "../component/Sidebar";
-// import ActivityChart from "../component/ActivityChart";
-
-// const Dashboard = () => {
-//   return (
-//     <Box sx={{ display: "flex" }}>
-//       <Header />
-//       <Sidebar />
-     
-//     </Box>
-//   );
-// };
-
-// export default Dashboard;
-
 import React from "react";
 import RecentOrder from "./RecentOrder";
 import CustomerFeedback from "./CustomerFeedback";
@@ -59,10 +34,12 @@ const Dashboard = ({ orders, feedbacks }) => {
         <div className={styles.dashboard}>
           <div className={styles.column}>
             <Graph />
+            <p>&nbsp;</p>
             <RecentOrder orders={orders} />
           </div>
           <div className={styles.column}>
             <Goals />
+            <p>&nbsp;</p>
             <CustomerFeedback feedbacks={feedbacks} />
           </div>
         </div>

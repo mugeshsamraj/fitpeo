@@ -13,7 +13,10 @@ const Goals = () => {
     { name: "Goals", icon: faBullseye },
     { name: "Popular Dishes", icon: faUtensils },
     { name: "Menu", icon: faList },
-  ]; // Replace with actual goals and icons
+    { name: "Goals", icon: faBullseye },
+    { name: "Popular Dishes", icon: faUtensils },
+    { name: "Menu", icon: faList },
+  ]; 
 
   return (
     <div className={styles.goalsContainer}>

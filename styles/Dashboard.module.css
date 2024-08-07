@@ -1,37 +1,36 @@
-/* Dashboard.module.css */
 .dashboardContainer {
   display: flex;
-  flex-direction: column; /* Ensure sidebar and header are stacked vertically */
+  flex-direction: column; 
 }
 
 .header {
-  height: 60px; /* Adjust this to the actual height of your header */
+  height: 60px; 
 }
 
 .content {
   flex: 1;
-  margin-left: 150px; /* Match the width of the sidebar */
+  margin-left: 150px; 
   padding: 20px;
-  padding-top: 90px; /* Match the height of the header */
-  background-color: #f4f4f4; /* Example background color */
+  padding-top: 90px; 
+  background-color: #f4f4f4; 
 }
 
 .cardContainer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  width: calc(100% - 250px); /* Adjust width to account for sidebar */
+  /* width: calc(100% - 250px);  */
 }
 
 .leftCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 66.66%; /* 8/12 parts */
+  width: 60.66%; 
 }
 
 .rightCard {
-  width: 33.33%; /* 4/12 parts */
+  width: 37.33%; 
 }
 
 .card {
@@ -41,7 +40,7 @@
   border-radius: 10px;
   text-align: center;
   margin-bottom: 20px;
-  width: calc(50% - 10px); /* Two cards per row with some margin */
+  width: calc(50% - 10px); 
 }
 
 .card h3 {
@@ -83,7 +82,7 @@
 }
 
 .graph {
-  height: 200px; /* Adjust height as needed */
+  height: 200px; 
 }
 
 .goals {

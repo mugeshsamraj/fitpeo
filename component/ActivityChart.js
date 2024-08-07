@@ -12,7 +12,6 @@ import {
 const data = [
   { name: "5", uv: 4000, pv: 2400, amt: 2400 },
   { name: "6", uv: 3000, pv: 1398, amt: 2210 },
-  // Add more data points
 ];
 
 const ActivityChart = () => (

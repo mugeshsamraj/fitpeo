@@ -34,13 +34,13 @@ export const orders = [
     amount: "545.00",
     status: "Delivered",
   },
-  {
-    customerImg: "https://via.placeholder.com/30",
-    customerName: "Savannah Nguyen",
-    orderNo: "78514568",
-    amount: "128.20",
-    status: "Delivered",
-  },
+  // {
+  //   customerImg: "https://via.placeholder.com/30",
+  //   customerName: "Savannah Nguyen",
+  //   orderNo: "78514568",
+  //   amount: "128.20",
+  //   status: "Delivered",
+  // },
 ];
 
 export const feedbacks = [
@@ -62,4 +62,5 @@ export const feedbacks = [
     stars: 4,
     text: "Normally we are wings, but theirs are lean meaty and tender, and the garlic parmesan sauce is amazing.",
   },
+  
 ];
